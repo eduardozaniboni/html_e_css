@@ -4,28 +4,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+
   <title>Eduardo Zaniboni - Portfólio</title>
+
+  <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
-  <header></header>
+  <header class="header">
+    <nav class="header__menu">
+      <a class="header__menu__link" href="index.html">Início</a>
+      <a class="header__menu__link" href="about.html">Sobre mim</a>
+    </nav>
+  </header>
+
   <main class="container">
-    <section class="container__content">
-      <h1 class="container__content__title">Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com
+    <section class="content">
+      <h1 class="content__title">Eleve seu negócio digital a outro nível <strong class="content__emphasis">com
           um Front-end de
           qualidade!</strong></h1>
-      <p class="container__content__text">Olá! Sou Eduardo Zaniboni, Desenvolvedor Front-end com especialidade em
+      <p class="content__text">Olá! Sou Eduardo Zaniboni, desenvolvedor Front-end com especialidade em
         React.js, HTML, CSS e Javascript. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos
         conversar?</p>
-      <div class="container__content__links">
-        <a class="content__link" href="https://linkedin.com/in/eduardozaniboni">LinkedIn</a>
-        <a class="content__link" href="https://github.com/eduardozaniboni">GitHub</a>
+      <div class="content__links">
+        <h2 class="content__links__title">Acesse minhas redes:</h2>
+        <a class="content__link" href="https://linkedin.com/in/eduardozaniboni">
+          <img class="content__link__image" src="./assets/linkedin.png" alt="Logo do LinkedIn">
+          LinkedIn
+        </a>
+        <a class="content__link" href="https://github.com/eduardozaniboni">
+          <img class="content__link__image" src="./assets/github.png" alt="Logo do GitHub">
+          GitHub
+        </a>
       </div>
     </section>
-    <img src="img/eduardo.jpg" alt="Foto do Eduardo Zaniboni">
+    <img class="container__image" src="./assets/eduardo.jpg" alt="Foto do Eduardo Zaniboni">
   </main>
-  <footer></footer>
+
+  <footer class="footer">
+    <p>Desenvolvido por Eduardo Zaniboni e Alura</p>
+  </footer>
 </body>
 
 </html>
